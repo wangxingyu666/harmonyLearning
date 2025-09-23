@@ -3,7 +3,7 @@
 export struct StackDemo {
   @Prop avatarUrl: string = 'https://my-wxy-bucket.oss-cn-nanjing.aliyuncs.com/images/boqi.png'
   @Prop username: string = '波奇'
-  @State hasNewMsg: boolean = true //是否有消息
+  @State hasNewMsg: boolean = true
 
   build() {
     Stack() {
@@ -18,7 +18,6 @@ export struct StackDemo {
             color: Color.Red
           })
 
-        // 消息徽章背景，红色圆，定位到左上角
         if(this.hasNewMsg) {
           Circle({width: 18, height: 18})
             .fill(Color.Red)
@@ -26,7 +25,7 @@ export struct StackDemo {
           Text('8')
             .fontSize(10)
             .fontColor(Color.White)
-            .position({ x:55, y:4 }) //文字居中
+            .position({ x:55, y:4 })
         }
 
         //学生姓名

@@ -11,6 +11,22 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "Space",
+      "value": "8"
+    },
+    {
+      "name": "Font_size_big",
+      "value": "24"
+    },
+    {
+      "name": "Font_size_media",
+      "value": "14"
+    },
+    {
+      "name": "network_reason",
+      "value": "需要网络权限来加载头像图片"
     }
   ]
 }

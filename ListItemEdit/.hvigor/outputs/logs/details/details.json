@@ -1,0 +1,75 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        }
+      }
+    ],
+    "NATIVE_COMPILER": "Default",
+    "BUILD_MODE": "debug"
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {
+      "1043bfc77febe75fafec0c4309faccf1": {
+        "PreBuild": 224257000,
+        "CreateModuleInfo": 818400,
+        "ConfigureCmake": 1364500,
+        "MergeProfile": 10978400,
+        "CreateBuildProfile": 6164600,
+        "PreCheckSyscap": 1515700,
+        "GeneratePkgContextInfo": 11973900,
+        "ProcessIntegratedHsp": 1350000,
+        "BuildNativeWithCmake": 831000,
+        "MakePackInfo": 7173800,
+        "SyscapTransform": 7600000,
+        "ProcessProfile": 104217400,
+        "ProcessStartupConfig": 1065300,
+        "BuildNativeWithNinja": 2014500,
+        "CompileResource": 309645000,
+        "BuildJS": 2603300,
+        "CompileArkTS": 1166889900,
+        "GeneratePkgModuleJson": 1953600,
+        "PackageHap": 55711200,
+        "SignHap": 1465900,
+        "CollectDebugSymbol": 962100,
+        "assembleHap": 140400
+      }
+    },
+    "APIS": [
+      "getHvigorConfig",
+      "getRootNodeDescriptor",
+      "getChildNode",
+      "getNodeByName",
+      "getAllNodes",
+      "getRootNode",
+      "getNodeName",
+      "getNodePath",
+      "subNodes",
+      "getExtraOption",
+      "getExtParam",
+      "getExtParams",
+      "getProperty",
+      "getProperties",
+      "getProductName",
+      "nodesEvaluated",
+      "getParameter",
+      "getCommandEntryTask",
+      "getStartParams"
+    ],
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor_keepDependency": true
+    },
+    "TOTAL_TIME": 2126325700,
+    "BUILD_ID": "202509281959195490"
+  }
+}

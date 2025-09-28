@@ -1,0 +1,75 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        }
+      }
+    ],
+    "NATIVE_COMPILER": "Default",
+    "BUILD_MODE": "debug",
+    "USE_NORMALIZED_OHMURL": true
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {
+      "1043bfc77febe75fafec0c4309faccf1": {
+        "PreBuild": 201287000,
+        "CreateModuleInfo": 1511900,
+        "ConfigureCmake": 651100,
+        "MergeProfile": 5869100,
+        "CreateBuildProfile": 2633500,
+        "PreCheckSyscap": 766900,
+        "ProcessIntegratedHsp": 1047100,
+        "BuildNativeWithCmake": 503100,
+        "MakePackInfo": 6166200,
+        "SyscapTransform": 3647500,
+        "ProcessProfile": 118688300,
+        "ProcessStartupConfig": 2997300,
+        "BuildNativeWithNinja": 1343600,
+        "CompileResource": 351100600,
+        "BuildJS": 3465600,
+        "CompileArkTS": 12641644900,
+        "GeneratePkgModuleJson": 3188700,
+        "PackageHap": 76070600,
+        "SignHap": 2579800,
+        "CollectDebugSymbol": 1488000,
+        "assembleHap": 266400
+      }
+    },
+    "APIS": [
+      "getHvigorConfig",
+      "getRootNodeDescriptor",
+      "getChildNode",
+      "getNodeByName",
+      "getAllNodes",
+      "getRootNode",
+      "getNodeName",
+      "getNodePath",
+      "subNodes",
+      "getExtraOption",
+      "getExtParam",
+      "getExtParams",
+      "getProperty",
+      "getProperties",
+      "getProductName",
+      "nodesEvaluated",
+      "getParameter",
+      "getCommandEntryTask",
+      "getStartParams"
+    ],
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor_keepDependency": true
+    },
+    "TOTAL_TIME": 13728250600,
+    "BUILD_ID": "202509281955146290"
+  }
+}
